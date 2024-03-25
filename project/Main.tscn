@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dxwbnx70e0dnf"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="UI" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="UI"]
+layout_mode = 0
+offset_left = 217.0
+offset_top = 163.0
+offset_right = 439.0
+offset_bottom = 186.0
+text = "Press Any Key To Start Game"
