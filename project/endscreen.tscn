@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://c85ycqy44yudk"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="Control"]
+layout_mode = 0
+offset_left = 83.0
+offset_top = 47.0
+offset_right = 271.0
+offset_bottom = 96.0
+text = "Score: 0
+Press Any Key to Restart"
