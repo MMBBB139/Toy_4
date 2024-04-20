@@ -1,4 +1,7 @@
-[gd_scene format=3 uid="uid://c85ycqy44yudk"]
+[gd_scene load_steps=2 format=3 uid="uid://c85ycqy44yudk"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_ugajw"]
+font_size = 40
 
 [node name="Node2D" type="Node2D"]
 
@@ -8,11 +11,22 @@ anchors_preset = 0
 offset_right = 40.0
 offset_bottom = 40.0
 
-[node name="Label" type="Label" parent="Control"]
+[node name="Button" type="Button" parent="Control"]
 layout_mode = 0
-offset_left = 83.0
-offset_top = 47.0
-offset_right = 271.0
-offset_bottom = 96.0
-text = "Score: 0
-Press Any Key to Restart"
+offset_left = 455.0
+offset_top = 247.0
+offset_right = 793.0
+offset_bottom = 386.0
+scale = Vector2(0.8, 1)
+
+[node name="Label" type="Label" parent="Control/Button"]
+layout_mode = 0
+offset_left = 50.0
+offset_top = 42.0
+offset_right = 238.0
+offset_bottom = 97.0
+scale = Vector2(1.25, 1)
+text = "Restart"
+label_settings = SubResource("LabelSettings_ugajw")
+horizontal_alignment = 1
+vertical_alignment = 1
